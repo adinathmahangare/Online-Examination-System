@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 {% load static %}
 <html lang="en" dir="ltr">
+<head>
+  <title>Examination System</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/image/favicon-32x32.png">
+</head>
 
-<title>
-  Examination
-</title>
 
 <style>
   .jumbotron{
     margin-bottom: 0px;
     display: flex;
+    height: 100vh;
   }
 </style>
 <body>
@@ -25,10 +27,10 @@
     <p><strong> Start Your Journey Here:</strong></p>
     <a href="/student/studentsignup" class="btn btn-lg btn-info" style="padding-right: 35px; border-radius: 0%;"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Sign Up as Student</a>
     
-    <br><br><br>
+    
   </div>  
 </section>
-  {% include "exam/footer.html" %}
+  
 
 
 </body>
